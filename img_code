@@ -1,0 +1,18 @@
+for (var count = 0; count < 4; count++) {
+  penWidth(5);
+  penColour(colour_random());
+  moveForward(50);
+  turnLeft(90);
+}
+for (var count2 = 0; count2 < 4; count2++) {
+  penWidth(5);
+  penColour(colour_random());
+  moveBackward(50);
+  turnLeft(90);
+}
+for (var count3 = 0; count3 < 1; count3++) {
+  penColour(colour_random());
+  turnLeft(45);
+  moveBackward(70);
+  moveForward(140);
+}
